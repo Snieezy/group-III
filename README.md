@@ -1,24 +1,15 @@
-# README
+# Board&Roll
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Board&Roll is an application for finding and organizing board game meetings in your local area. Main goal is to help people who love board games.
 
-Things you may want to cover:
 
-* Ruby version
+## Credits
+* [Kamil Filipowski](https://github.com/KamilFilip)
+* [Maciej Michalik](https://github.com/maciek1995)
+* [Bernard Pietraga](https://github.com/bpietraga)
+* [Alicja Raszkowska](https://github.com/trueskawka)
+* [Karolina Rostek](https://github.com/Carolsien)
+* [Katarzyna Sikorska](https://github.com/Snieezy)
+* [Piotr Sordyl](https://github.com/hav3loc)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## License
