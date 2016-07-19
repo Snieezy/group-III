@@ -1,6 +1,21 @@
 # Board&Roll
 
-Board&Roll is an application for finding and organizing board game meetings in your local area. Main goal is to help people who love board games.
+## Description
+**Board&Roll** is a web application for organizing and finding board game meetings in your local area. User can choose a game, create an event and invite friends or he can join one of the events nearby.
+
+
+## Installation
+To download code from Github use command </br>
+`git clone https://github.com/Ragnarson-Internship2016/group-III.git ` </br>
+Make sure that you already have bundler and nodejs.
+If you do not have it, use  
+```
+apt-get gem install bundler
+apt-get install nodejs
+```
+To run application, open downloaded folder and run
+`rails s`.
+Then open your browser and go to `localhost:3000`
 
 
 ## Credits
