@@ -1,0 +1,18 @@
+/* imports hocus-pocus colors */
+@import "hocus-pocus/scss/colors";
+
+/* nav-bar */
+$grid-container: 70rem;
+$navbar-background: #0b1337;
+
+/* typography */
+$font-leading: 1.4;
+$font-size-base: 15;
+$font-family-base: "Open Sans", sans-serif;
+
+/* responsive design */
+$rwd-type: mobile-first;
+$rwd-map: (tablet: 768px 1200px, desktop: 1201px);
+
+/* whole hocus-pocus */
+@import "hocus-pocus/hocus-pocus";
