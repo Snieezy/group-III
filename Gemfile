@@ -19,6 +19,7 @@ gem 'pundit'
 group :test do
   gem 'shoulda-matchers', '~>3.1'
 end
+
 group :development, :test do
 	gem 'rspec-rails', '~> 3.4'
   gem 'byebug', platform: :mri
