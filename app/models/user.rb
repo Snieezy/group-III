@@ -4,5 +4,5 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable
 
   validates :name, :surname, :city, presence: true
-  validates :name, :surname format: /[A-Z][a-z]*/
+  validates :name, :surname, format: /[A-Z][a-z]*/
 end
