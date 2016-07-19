@@ -10,7 +10,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 gem 'slim'
-gem 'bootstrap-sass', '~> 3.3.6'
+gem 'rails-assets-hocus-pocus', source: 'https://rails-assets.org'
 
 gem 'devise'
 gem 'simple_form'
