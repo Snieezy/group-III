@@ -6,4 +6,7 @@ class User < ApplicationRecord
 
   validates :name, presence: true
   validates :surname, presence: true
+  validates :city, presence: true
+  validates :name, format: /[A-Z][a-z]*/
+  validates :surname, format: /[A-Z][a-z]*/
 end

@@ -1,5 +1,11 @@
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
-end
+  xit "has many events" do
+    relation=User.reflect_on_association(:events)
+    expect(relation.macro).to equal :has_many
+  end
+  it { should validate_presence_of(:name) }
+  it { should validate_presence_of(:surname) }
+  it { should validate_presence_of(:city) }
+  end
