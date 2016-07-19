@@ -1,3 +1,5 @@
-@import "bootstrap-sprockets"
-
-/* in order to add more .scss files use @import */
+/*
+*= require hocus-pocus
+*= require_tree .
+*= require_self
+*/
